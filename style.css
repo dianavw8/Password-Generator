@@ -15,6 +15,10 @@ body,
 body {
   font-family: sans-serif;
   background-color: #f9fbfd;
+  background-image: url("https://images.idgesg.net/images/article/2018/08/5_password-best-practices_unique-passwords_authentication-100768646-large.jpg?auto=webp&quality=85,70");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .wrapper {
@@ -30,9 +34,11 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
+.headerText{
+  color: white;
+}
+
 .card {
-  background-color: hsl(0, 0%, 100%);
-  border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
   color: hsl(206, 17%, 28%);
@@ -40,6 +46,8 @@ header {
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.75);
 }
 
 .card-header::after {
@@ -86,6 +94,10 @@ header {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+}
+
+.generatePasswordButton{
+  background: forestgreen;
 }
 
 button[disabled] {
